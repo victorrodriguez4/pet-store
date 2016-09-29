@@ -1,0 +1,11 @@
+.nav {
+  background-image: image("../img/petstore_logo.png");
+  background-position: left;
+  background-size: contain;
+}
+
+.jumbotron {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
