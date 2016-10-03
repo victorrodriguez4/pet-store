@@ -1,11 +1,41 @@
-.nav {
-  background-image: image("../img/petstore_logo.png");
+.header img {
+  max-width: 60px;
   background-position: left;
-  background-size: contain;
 }
-
+.header h1 {
+  font-family: cursive;
+  color: #ff3300;
+  background-color: white;
+  padding: 0;
+  font-size: 33px;
+}
 .jumbotron {
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
+  padding-top: 68px;
+  padding-bottom: 180px;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+footer {
+  background-color: #231F20;
+  padding: 0;
+}
+footer .row {
+  margin: 0;
+}
+footer img {
+  max-width: 150px;
+}
+footer a {
+  color: #DDD;
+}
+footer .border {
+  border-left: 1px solid #505050;
+}
+footer .copyright {
+  color: #505050;
+  font-size: 18px;
 }
